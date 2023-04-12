@@ -1,0 +1,96 @@
+:root
+{
+    background-color:rgba(18, 18, 18,1);
+}
+*{
+    font-family: 'Comfortaa', cursive;
+    color: rgba(240, 240, 240,0.83);
+    
+}
+body
+{
+    margin: 1em;
+    padding: 0;
+   
+}
+.section
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.header
+{
+    background-color:rgba(18, 18, 18,1) ;
+    position: sticky;
+    display: grid;
+    width: 100%;
+    top: 0;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 70px;
+}
+img
+{
+    width: 2.5em;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    font-size: 3em;
+}
+.back{
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.backbutton:hover .back-image
+{
+    transform: scale(1.1);
+}
+.backbutton:hover{
+    background-color: rgba(35, 35, 35,0.8); ;
+}
+h2
+{
+    margin-left: 3em;
+   
+}
+p{
+    font-size: 1.2em;
+}
+li{
+    font-size: 1.2em;
+}
+.card
+{
+    
+    background-color:rgba(45, 45, 45,1);
+    padding:1em;
+    border-radius: 1em;
+    vertical-align: auto;
+    margin: 2em ;
+    
+
+}
+.border
+{
+    
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.picture
+{
+    width: 7em; 
+    margin-left: 3em;
+    background-color: rgba(18, 18, 18,1);
+    border: 0.5em solid rgba(18, 18, 18,1);
+    border-radius: 1em;
+}
